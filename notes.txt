@@ -1,0 +1,9 @@
+index.js: its the entry point of our server it act as the connection between our server logic and frontend
+
+database.js: it contain the database connection setup
+
+models folder: they handle the database fields of each actor
+
+controllers folder : the use the models to create new features (login, signup, etc...)
+
+routes: they handle the routes of the srver by telling the index js in how to communicate with the features
